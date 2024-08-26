@@ -8,6 +8,45 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="title">
+      <h1>Currency Converter</h1>
+    </div>
+    <section class="currency-to-convert-section">
+      <div class="currency-from-input-container">
+        <div>
+          <h3>From:</h3>
+        </div>
+        <select id="currency-from-select">
+          <option value="GBP">GBP</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+        </select>
+        <input type="number" min="0" required class="convert-from-input" />
+      </div>
+    </section>
+
+    <div class="btn-container">
+      <button type="button" class="convert-btn">Convert</button>
+    </div>
+
+    <section class="currency-to-convert-to-section">
+      <div class="currency-to-input-container">
+        <div>
+          <h3>To:</h3>
+        </div>
+        <select id="currency-to-select">
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+          <option value="EUR">EUR</option>
+        </select>
+        <div class="result"></div>
+      </div>
+    </section>
+
+    <section class="exchange-rate-section">
+      <div class="exchange-rate">Exchange Rate:</div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
