@@ -99,4 +99,8 @@ input::-webkit-inner-spin-button {
   border-radius: 20px;
   color: black;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
 }
