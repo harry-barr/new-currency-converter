@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: rgb(14, 2, 2);
-  color: #9a0202;
+  background-color: rgb(245, 224, 224);
+  color: #000000b3;
 }
 
 .title {
@@ -85,7 +85,7 @@ input::-webkit-inner-spin-button {
   border: none;
   font-size: 1.25rem;
   cursor: pointer;
-  border: 3px solid #9a0202;
+  border: 3px solid #000000;
 }
 .convert-btn:hover {
   background-color: rgb(17, 6, 161);
